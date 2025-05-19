@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client Dashboard</title>
+  <link rel="stylesheet" href="../Style/style.css" />
+  <link rel="icon" href="..\assets\favicon-16x16.png" type="image/png">
+</head>
+<body>
+  <header>
+    <h1>Welcome, <span id="clientName"></span></h1>
+    <button id="logoutBtn">Logout</button>
+  </header>
+
+  <main>
+    <div id="serverStatusAlert" class="server-alert" style="display: none;">
+      <p>⚠️ Server is not running</p>
+      <p>Please run the <code>start-server.bat</code> file manually to start the server.</p>
+    </div>
+    <section>
+      <h2>Apply for a Checkbook</h2>
+      <form id="applyForm">
+        <label for="account">Account Number</label>
+        <input type="text" id="account" required />
+
+        <label for="address">Delivery Address</label>
+        <input type="text" id="address" required />
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Your Applications</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Account</th>
+            <th>Address</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="applicationList">
+          <!-- Populated by JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="../JS/server-status.js"></script>
+  <script src="../JS/Clients.js"></script>
+</body>
+</html>

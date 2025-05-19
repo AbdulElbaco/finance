@@ -1,0 +1,50 @@
+[
+  {
+    "id": 101,
+    "userId": 3,
+    "account": "ACC-00123",
+    "address": "123 Maple Street, City A",
+    "date": "2025-05-14T09:30:00Z",
+    "status": "rejected"
+  },
+  {
+    "id": 102,
+    "userId": 4,
+    "account": "ACC-00456",
+    "address": "456 Oak Avenue, City B",
+    "date": "2025-05-14T10:15:00Z",
+    "status": "approved"
+  },
+  {
+    "id": 103,
+    "userId": 3,
+    "account": "ACC-00123",
+    "address": "123 Maple Street, City A",
+    "date": "2025-05-13T14:50:00Z",
+    "status": "rejected"
+  },
+  {
+    "id": 1747646743939,
+    "status": "rejected",
+    "userId": 3,
+    "account": "ACC-00123",
+    "address": "456 Oak Ave",
+    "date": "2025-05-19T09:25:43.909Z"
+  },
+  {
+    "id": 1747647157566,
+    "status": "pending",
+    "userId": 3,
+    "account": "ACC-00123",
+    "address": "456 Oak Ave",
+    "date": "2025-05-19T09:32:37.561Z"
+  },
+  {
+    "id": 1747647575797,
+    "status": "pending",
+    "userId": 1747647508414,
+    "account": "LIB101",
+    "address": "Kadoosh",
+    "date": "2025-05-19T09:39:35.793Z"
+  }
+]
